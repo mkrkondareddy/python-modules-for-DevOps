@@ -1,0 +1,8 @@
+boto3
+json
+yaml
+requests
+paramiko
+pytest
+docker
+fabric
