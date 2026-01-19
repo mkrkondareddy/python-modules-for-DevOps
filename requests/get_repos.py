@@ -1,9 +1,9 @@
 import requests 
 from pprint import pprint
 import json
+import os
 
-
-token = "github_pat_11BALQ7PQ0jbpy"
+token = os.getenv("github_token")
 
 headers = {
     "Accept": "application/vnd.github+json"

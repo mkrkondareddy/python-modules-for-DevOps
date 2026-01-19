@@ -1,9 +1,10 @@
 import requests
 import json
+import os
 
-token = "ghp_0foq4simjLneithP"
+token = os.getenv("github_token")
 
-url = "https://api.github.com/repos/mkrkondareddy/Hello-World"
+url = "https://api.github.com/repos/mkrkondareddy/Agentic-workflows"
 
 headers = {
      "Accept" : "application/vnd.github+json",

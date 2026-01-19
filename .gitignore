@@ -1,6 +1,12 @@
+venv/
 *.pem
 *.key
 *.crt
 *.env
 .vagrant
 vagrantfile
+.pytest*
+__pycache__
+error.log
+error.py
+test1.py

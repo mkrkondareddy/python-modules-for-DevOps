@@ -1,0 +1,7 @@
+app:
+  name: order-service
+  version: '2.0'
+ports:
+- 8080
+- 8443
+replicas: 2

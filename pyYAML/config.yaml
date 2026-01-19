@@ -1,0 +1,7 @@
+app:
+  name: payment-service
+  version: "1.0"
+replicas: 3
+ports:
+  - 8080
+  - 9090
